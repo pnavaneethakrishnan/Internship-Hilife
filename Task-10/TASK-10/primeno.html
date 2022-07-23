@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 2</title>
+    <style>
+        body{
+            background-image: url("/index.png");
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nd = Number(prompt("Enter the Number"));
+        var i=2;
+        for(i;i<=nd;i++)
+        {
+            if(nd%i==0)
+            {
+                break;
+            }
+        }
+
+        if(i==nd)
+        {
+            console.log("This is prime Number!");
+        }
+        else{
+            console.log("This is not a prime number!");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.heading-1{
+    background-image:-moz-linear-gradient(red,blue,green,purple);
+}
+.heading-2{
+    background-image:-moz-linear-gradient(green,skyblue,yellow,gray);
+}

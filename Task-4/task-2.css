@@ -1,0 +1,64 @@
+*{
+ background-color: blue;
+}
+.heading-2{
+    width: 150px;
+    height: 150px;
+    background-color:green;
+    font-size: 25px;
+    animation-name:nd;
+    animation-duration:30s;
+    animation-iteration-count: infinite;
+}
+@keyframes nd{
+    0%{
+        background-color: antiquewhite;
+    }
+        
+    10%{
+        background-color: aqua;
+    }
+    
+    25%{
+        background-color: aqua;
+    }
+    35%{
+        background-color: yellow;
+    
+    }
+    50%{
+        background-color: blueviolet;
+    }    
+    60%{
+        background-color: red;
+    }
+    
+    75%{
+        background-color: chartreuse;
+    }
+    
+    85%{
+        background-color: grey;
+    }
+    100%{
+        background-color: crimson;
+    }
+}
+.heading-1{
+    width: 100px;
+    height:200px ;
+    background-color: greenyellow;
+    transition: width 10s;
+}
+.heading-1:hover{
+    background-color: aquamarine;
+    width:600px;
+    height:200px;
+    color: brown;
+}
+.heading-3{
+    color: brown;
+    transform: rotate(45deg);
+    background-color: rgb(247, 247, 247);
+    width: max-content;
+}

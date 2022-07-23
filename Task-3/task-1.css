@@ -1,0 +1,13 @@
+h1{
+    text-align:left;
+    opacity:0.5 ;
+}
+img{
+    filter:blur(5px);
+}
+.heading-1{
+    border: 5px solid aqua;
+}
+.heading-2{
+    border: 7px solid lawngreen;
+}

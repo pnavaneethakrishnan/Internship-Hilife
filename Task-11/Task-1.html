@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 11</title>
+</head>
+<body>
+    <marquee behavior="scroll" direction="right" scrollamount="10"><i><u>FOR LOOP STATEMENT</u></i>
+    </marquee>
+    <script>
+        var depositAmount=1000;
+        var interest=0.5;
+        console.log("All Employee deposit Amount in Company is:"+ depositAmount);
+        for(let year=1 ; year<=5 ; year++){
+            depositAmount+=(interest*depositAmount);
+            console.log(year +"Year of Interest are:"+depositAmount);
+        }
+        </script>
+</body> 
+</html>

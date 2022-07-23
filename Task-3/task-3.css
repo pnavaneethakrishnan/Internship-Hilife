@@ -1,0 +1,6 @@
+.flex-container{
+    display: flex;
+    background: black;
+    color: aquamarine;
+    padding: 30px;
+}

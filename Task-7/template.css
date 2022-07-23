@@ -1,0 +1,22 @@
+.soft1{
+    background-color: chartreuse;
+    display: block;
+}
+.Naveen{
+    background-color: cadetblue;
+    text-align: center;
+    color: blue;
+    height:250px;
+    padding: 40px;
+}
+.Viswa{
+    text-align: center;
+}
+.Tyson{
+    margin: 5% 5% 5% 5%;
+    box-shadow: 5px 5px 5px 5px rgb(170, 163, 163);
+    height: 1000px;
+}
+.card title{
+    color: chartreuse;
+}
