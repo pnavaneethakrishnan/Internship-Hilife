@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Icss</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+    img{
+      width: 100px;
+      height: 100px;
+    
+    }
+
+    h4{
+      text-align: center;
+      color:green;
+
+    }
+    h4:hover{
+      font-size:20px;
+    }
+    .stock{
+      text-align: center;
+      color: black;
+    }
+    h1{
+      text-align: center;
+      color:#fa0a0a;
+    }
+    
+    button:hover{
+      color: blue;
+      border-radius: 10px;
+      font-size: 20px;
+    }
+    body{
+      border-radius: 10px;
+    }
+
+    ul{
+      font-size: 20px;
+    }
+    #row1{
+      border-radius:30px;
+    }
+    
+  
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Computer Chairs </a></li>
+        <li><a href="#">Sofa </a></li>
+        <li><a href="#">Tables</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav hidden-xs">
+      <h2><img src="./0dcfb548989afdf22afff75e2a46a508.jpg" alt="logo"> </h2>
+      <h1>ICSS</h1>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="#section2">Computer Chairs</a></li>
+        <li><a href="#section3">Sofa</a></li>
+        <li><a href="#section3">Tables</a></li>
+      </ul><br>
+    </div>
+    <br>
+    
+    <div class="col-sm-9">
+      <div class="well">
+        <h4>ROLLING CHAIRS</h4>
+      
+        <p class="chairs">..... is among the World's Largest Furniture Manufacturers offering a diverse range of modern and traditional furniture. Since Damro was established in 1986, it has achieved a rapid success and has expanded to over 250 showrooms in South Asia. Damro's success has grown from it's ability to produce high quality furniture at affordable prices with outstanding customer service.
+
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>HighBack Chair</h4>
+            <p class="stock">stock-100</p> 
+            <p>$5000-to-$10000</p>
+            <footer style="text-align:right;">
+            <button type="button">
+              70%-off
+
+            </button></footer>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Executive Chair</h4>
+            <p class="stock">Stock-200</p>
+            <p>$1000-to-$5000</p>
+            <footer style="text-align: right;">
+            <button type="button">40%-off</button></footer> 
+            
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Club Chairs</h4>
+            <p class="stock">Stock-50</p>
+            <p>$5000-to-$8000</p>
+            <footer style="text-align: right;">
+              <button type="button">30%-off</button></footer>
+
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h4>Rexine Chair</h4>
+            <p class="stock">stock-100</p>
+            <p>FixedPrice-$1000</p>
+            <footer style="text-align: right;">
+              <button type="button"><del>30%-off</del></button></footer>
+
+          </div>
+        </div>
+      </div>
+      <div class="row" id="row1">
+        <div class="col-sm-4">
+          <div class="well">
+            <p><h1>Sofa</h1></p> 
+            <ul type="square">
+              <li>U shape Sofa</li>
+              <li>Designer sofa</li>
+              <li>Bean Bag</li>
+            </ul>
+            
+             
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p><h1>Table</h1></p> 
+            <ul type="square">
+              <li>Dinning table</li>
+              <li>Coffee Table</li>
+              <li>Night Stand</li>
+
+              
+            </ul> 
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <p><h1>Coboard</h1></p> 
+            <ul type="square">
+              <li>Steel Coboard</li>
+              <li>Wooden Coboard</li>
+              <li>Godrej Coboard</li>
+
+              
+            </ul> 
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="content">
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,390 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#container{
+    height: 100vh;
+    width: 100%;
+
+}
+#background{
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(red,yellow,green);
+    clip-path:polygon(65% 0,100% 0,100% 100%,30% 100%);
+
+
+}
+#navbar{
+    height: 70px;
+    width: auto;
+    position: absolute;
+    top: 15px;
+
+}
+#navbar ul{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+#navbar ul li{
+    height: 60px;
+    width:auto;
+    font-size: 25px;
+    margin: 0px 60px;
+    display: flex;
+    align-items: center;
+
+    
+}
+#navbar ul li:first-child{
+    margin-left: 120px;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: chartreuse;
+}
+#navbar ul li a:hover{
+    color: crimson;
+    padding: 10px 0;
+    border-bottom: 2px solid red;
+
+}
+#navbar ul.active a{
+    color: crimson;
+    padding: 10px 0;
+    border-bottom: 2px solid red;
+}
+#navbar ul:hover .active a{
+    padding: none;
+    border: none;
+    color: cornflowerblue;
+
+    
+}
+#navbar ul .active:hover a{
+    color: crimson;
+    padding: 10px 0;
+    border-bottom: 2px solid red;
+
+}
+#logo{
+    height: 70px;
+    width: auto;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+}
+#logo img{
+    height: 70px;
+    width: auto;
+
+}
+#sideimage{
+    height: 600px;
+    width: auto;
+    position: absolute;
+    top: calc(40% - 100px);
+    left: 5%;
+}
+#sideimage img{
+    height: 300px;
+    width: auto;
+}
+#content{
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    right: 2%;
+    top: calc(40% - 100px);
+
+}
+#content h2{
+    font-size: 100px;
+    line-height: 150px;
+    color:black;
+
+}
+#content p{
+margin: 30px 0;
+color:red;
+font-size: 20px;
+
+
+}
+#content button{
+height: 70px;
+width: 200px;
+outline: none;
+background: transparent;
+color: darkblue;
+font-size: 25px;
+border: 2px solid brown;
+border-radius: 30px 10px;
+cursor: pointer;
+}
+#content button:hover{
+background-color: blueviolet;
+border: none;
+color: burlywood;
+
+}
+#socialicons{
+height: 60px;
+width: auto;
+position: absolute;
+bottom: 3%;
+left: 5%;
+display:flex ;
+flex-direction: row;
+}
+#socialicons a{
+height: 50px;
+width: 50px;
+margin: 0px 5px;
+text-decoration: none;
+}
+#socialicons a i{
+width: 50px;
+height: 50px;
+border: 2px solid royalblue;
+font-size: 20px;
+color: chocolate;
+border-radius: 10px;
+display: grid;
+place-items:center;
+}
+#socialicons a i:hover{
+background:linear-gradient(red,green,pink);
+color: aquamarine;
+border-width: 1px;
+}
+#line{
+height: 10px;
+width: 700px;
+background:linear-gradient(to right,transparent 50%, white 50%);
+border: 1px solid white;
+border-radius: 40px;
+position: absolute;
+bottom: 5%;
+right: 20%;
+}
+#btn{
+display: flex;
+flex-direction: row;
+position: absolute;
+bottom: 3%;
+right: 5px;
+
+}
+#btn.pagenatioon{
+height: 50px;
+width: 50px;
+border: 1px solid yellowgreen;
+border-radius: 10px;
+margin: 0 10px;
+overflow: hidden;
+cursor: pointer;
+}
+#btn.pagenatioon i{
+height: 50px;
+width: 50px;
+color: red;
+font-size: 22px;
+display: grid;
+place-items: center;
+
+}
+#btn.pagenatioon i:hover{
+background-color: black;
+border: none;
+color: pink;
+
+
+}
+#abc{
+    height: 70px;
+    width:600px;
+    border: 1px  solid black;
+    border-radius: 20px;
+    background-color: crimson;
+    font-size: 25px;
+    padding: auto;
+
+}
+.karthi{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+address{
+    width: 500px;
+    height: 200px;
+    border: 1px;
+    border-radius: 10px;
+    border-color: hotpink;
+    background: linear-gradient(red,yellow,pink);
+}
+#kamal1{
+    font-size: 70px;
+    font-family: monospace;
+}
+.mathi{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px;
+    
+    font-size: 50px;
+}
+.mathi{
+    width:150px;
+    height: 50px;
+    background-color: blue;
+    font-size: 25px;
+    color: lime;
+    animation-name:demo;
+    animation-duration:5s;
+    justify-content: center;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes demo{
+0%{
+    background-color:black;
+    font-size: 30px;
+    color: aliceblue;
+}
+20%{
+    background-color: forestgreen;
+    font-size: 35px;
+    color: red;
+}
+40%{
+    background-color:blue;
+    font-size: 40px;
+    color:chartreuse;
+}
+60%{
+    background-color:aqua ;
+    font-size: 45px;
+    color:black;
+}
+80%{
+    background-color:yellow ;
+    font-size: 40px;
+
+}
+100%{
+    background-color: seashell;
+    font-size: 35px;
+}
+}
+.karthi{
+    width:300px;
+    height: 50px;
+    background-color: blue;
+    font-size: 25px;
+    color: lime;
+    animation-name:demo;
+    animation-duration:5s;
+    justify-content: center;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes demo{
+0%{
+    background-color:black;
+    font-size: 30px;
+    color: aliceblue;
+}
+20%{
+    background-color: forestgreen;
+    font-size: 35px;
+    color: red;
+}
+40%{
+    background-color:blue;
+    font-size: 40px;
+    color:chartreuse;
+}
+60%{
+    background-color:aqua ;
+    font-size: 45px;
+    color:black;
+}
+80%{
+    background-color:yellow ;
+    font-size: 40px;
+
+}
+100%{
+    background-color: seashell;
+    font-size: 35px;
+}
+}
+@media screen and (min-width:375px) and (max-width:880px){
+    body{
+        column-count: 3;
+        column-gap: 20px;
+         color: blue;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+#pr{
+    width:150px;
+    height: 50px;
+    background-color: blue;
+    font-size: 25px;
+    color: lime;
+    animation-name:demo;
+    animation-duration:5s;
+    justify-content: center;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes demo{
+0%{
+    background-color:black;
+    font-size: 30px;
+    color: aliceblue;
+}
+20%{
+    background-color: forestgreen;
+    font-size: 35px;
+    color: red;
+}
+40%{
+    background-color:blue;
+    font-size: 40px;
+    color:chartreuse;
+}
+60%{
+    background-color:aqua ;
+    font-size: 45px;
+    color:black;
+}
+80%{
+    background-color:yellow ;
+    font-size: 40px;
+
+}
+100%{
+    background-color: seashell;
+    font-size: 35px;
+}
+}
+#pa{
+    background-color: beige;
+    text-align: justify;
+
+}

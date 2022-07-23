@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('pexels-freemockupsorg-775219.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(30, 39, 39,0.3);
+    box-shadow: 0 5px 30px black;
+}
+.btn button{
+    padding: 3px;
+    outline: none;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+}
+.formgroup{
+    display: flex;
+    justify-content: center;
+}
+.formgroup input{
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+::placeholder{
+    color: white;
+}
+input:focus{
+    outline-style: none;
+    border-bottom: 2px solid rgb(149,241,149);
+    font-size: 17px;
+    font-weight: bold;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+#checkbox{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+.btn2{
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(28, 131, 28);
+    color: whitesmoke;
+    font-weight: 600;
+}
+.btn button:hover{
+    border-bottom: 3px solid rgb(99, 224, 99);
+}
+.signup{
+    display: none;
+}
+.login{
+    margin-top: 40px;
+}
+.login.checkbox{
+    margin-top: 40px;
+}
